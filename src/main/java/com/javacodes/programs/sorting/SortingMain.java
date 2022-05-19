@@ -8,8 +8,8 @@ public class SortingMain {
 //        new InsertionSort().execute();
 //        new InPlaceMergeSort().execute();
 //        new HeapSort().execute();
-
-        new QuickSort().execute();
+//        new QuickSortLumutosPartitioning().execute();
+//        new QuickSortHoaresPartitioning().execute();
 
     }
 
