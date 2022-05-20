@@ -1,6 +1,7 @@
 package com.javacodes.programs.leetcode;
 
 import java.util.HashSet;
+import java.util.Set;
 
 /**
  * #349
