@@ -1,7 +1,5 @@
 package com.javacodes.programs.workouts;
 
-import java.util.Arrays;
-
 /**
  * // both are valid declarations
  * int intArray[];
@@ -43,59 +41,59 @@ import java.util.Arrays;
 public class ArraysInJava {
 
     public static void main(String[] args) {
-        int[] intArray = {1,2,3};
+//        int[] intArray = {1,2,3};
 
-        int[] cloneArray = intArray.clone();
+//        int[] cloneArray = intArray.clone();
 
-        // will print false as deep copy is created
-        // for one-dimensional array
-        System.out.println(Boolean.toString(intArray == cloneArray));
-        System.out.println(Boolean.toString(Arrays.equals(intArray, cloneArray)));
+//        // will print false as deep copy is created
+//        // for one-dimensional array
+//        System.out.println(intArray == cloneArray);
+//        System.out.println(Arrays.equals(intArray, cloneArray));
+//
+//        // will print true as shallow copy is created
+//        // i.e. sub-arrays are shared
+//        System.out.println(intArray[0] == cloneArray[0]);
+//        System.out.println(intArray[1] == cloneArray[1]);
 
-        // will print true as shallow copy is created
-        // i.e. sub-arrays are shared
-        System.out.println(intArray[0] == cloneArray[0]);
-        System.out.println(intArray[1] == cloneArray[1]);
-
-        // *********************
-
-        // Input array
-        int a[] = { 1, 8, 3 };
-        // Creating an array b[] of same size as a[]
-        int b[] = new int[a.length];
-
-        // Doesn't copy elements of a[] to b[], only makes
-        // b refer to same location
-        b = a;
-
-        // Change to b[] will also reflect in a[]
-        // as 'a' and 'b' refer to same location.
-        b[0]++;
-
-        // *********************
-        // Methods to copy array
-        //        Iterating each element of the given original array and copy one element at a time
-        //        Using clone() method
-        //        Using arraycopy() method
-        //        Using copyOf() method of Arrays class
-        //        Using copyOfRange() method of Arrays class
-
-
-        // Copying elements of a[] to b[]
-        int c[] = a.clone();
-
-        // Copying elements of a[] to b[]
-        // public static void arraycopy(Object src, int srcPos, Object dest,
-        //                             int destPos, int length)
-        System.arraycopy(a, 0, b, 0, 3);
-
-
-        // If we want to copy the first few elements of an array or a full copy of the array, you can use this method.
-        int d[] = Arrays.copyOf(a, 3);
-
-        // This method copies the specified range of the specified array into a new array.
-        // public static int[] copyOfRange​(int[] original, int from, int to)
-        int e[] = Arrays.copyOfRange(a, 2, 6);
+//        // *********************
+//
+//        // Input array
+//        int[] a = { 1, 8, 3 };
+//        // Creating an array b[] of same size as a[]
+//        int[] b = new int[a.length];
+//
+//        // Doesn't copy elements of a[] to b[], only makes
+//        // b refer to same location
+//        b = a;
+//
+//        // Change to b[] will also reflect in a[]
+//        // as 'a' and 'b' refer to same location.
+//        b[0]++;
+//
+//        // *********************
+//        // Methods to copy array
+//        //        Iterating each element of the given original array and copy one element at a time
+//        //        Using clone() method
+//        //        Using arraycopy() method
+//        //        Using copyOf() method of Arrays class
+//        //        Using copyOfRange() method of Arrays class
+//
+//
+//        // Copying elements of a[] to b[]
+//        int c[] = a.clone();
+//
+//        // Copying elements of a[] to b[]
+//        // public static void arraycopy(Object src, int srcPos, Object dest,
+//        //                             int destPos, int length)
+//        System.arraycopy(a, 0, b, 0, 3);
+//
+//
+//        // If we want to copy the first few elements of an array or a full copy of the array, you can use this method.
+//        int d[] = Arrays.copyOf(a, 3);
+//
+//        // This method copies the specified range of the specified array into a new array.
+//        // public static int[] copyOfRange​(int[] original, int from, int to)
+//        int e[] = Arrays.copyOfRange(a, 2, 6);
 
 
         // Note
