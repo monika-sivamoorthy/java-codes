@@ -1,5 +1,7 @@
 package com.javacodes.programs.workouts;
 
+import java.util.Arrays;
+
 /**
  * // both are valid declarations
  * int intArray[];
@@ -96,14 +98,14 @@ public class ArraysInJava {
         int e[] = Arrays.copyOfRange(a, 2, 6);
 
 
-         Note
-        Simply assigning references is wrong
-        The array can be copied by iterating over an array, and one by one assigning elements.
-        We can avoid iteration over elements using clone() or System.arraycopy()
-        clone() creates a new array of the same size, but System.arraycopy() can be used to copy from a source range to a destination range.
-        System.arraycopy() is faster than clone() as it uses Java Native Interface
-        If you want to copy the first few elements of an array or a full copy of an array, you can use Arrays.copyOf() method.
-       Arrays.copyOfRange() is used to copy a specified range of an array. If the starting index is not 0, you can use this method to copy a partial array.
+//         Note
+//        Simply assigning references is wrong
+//        The array can be copied by iterating over an array, and one by one assigning elements.
+//        We can avoid iteration over elements using clone() or System.arraycopy()
+//        clone() creates a new array of the same size, but System.arraycopy() can be used to copy from a source range to a destination range.
+//        System.arraycopy() is faster than clone() as it uses Java Native Interface
+//        If you want to copy the first few elements of an array or a full copy of an array, you can use Arrays.copyOf() method.
+//       Arrays.copyOfRange() is used to copy a specified range of an array. If the starting index is not 0, you can use this method to copy a partial array.
 
 
 
