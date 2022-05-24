@@ -86,7 +86,8 @@ public class StringManipulations {
 //      equals() to check for equality, and
 //      compareTo() to find the lexical ordering
         int v = "myString".compareTo(null);  //Throws java.lang.NullPointerException
-        boolean b = "myString".equals(null);     //Returns false
+        // In simple words, == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
+        boolean b = "myString" == null;     //Returns false
 
 //      *****************************
 //      StringBuilder & StringBuffer
