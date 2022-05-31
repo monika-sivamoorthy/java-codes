@@ -1,4 +1,4 @@
-package com.javacodes.programs.workouts;
+package com.javacodes.programs.others;
 
 public class GeneratingBitMasksOrBinaryStrings {
 
