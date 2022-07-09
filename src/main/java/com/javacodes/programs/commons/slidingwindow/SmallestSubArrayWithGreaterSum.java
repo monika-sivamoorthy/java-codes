@@ -1,6 +1,4 @@
-package com.javacodes.programs.commonpatterns.slidingwindow;
-
-import java.util.Arrays;
+package com.javacodes.programs.commons.slidingwindow;
 
 /**
  * Given an array of positive integers and a number ‘S,’ find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’.

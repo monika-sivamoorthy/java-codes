@@ -1,4 +1,4 @@
-package com.javacodes.programs.commonpatterns.twopointers;
+package com.javacodes.programs.commons.twopointers;
 
 import java.util.*;
 

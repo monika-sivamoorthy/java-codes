@@ -1,4 +1,4 @@
-package com.javacodes.programs.commonpatterns.FastAndSlowPointers;
+package com.javacodes.programs.commons.FastAndSlowPointers;
 
 public class ListNode {
 

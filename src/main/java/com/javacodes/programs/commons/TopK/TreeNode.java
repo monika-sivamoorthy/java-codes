@@ -1,4 +1,4 @@
-package com.javacodes.programs.commonpatterns.TreeDFS;
+package com.javacodes.programs.commons.TopK;
 
 class TreeNode {
     int val;

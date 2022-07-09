@@ -1,4 +1,4 @@
-package com.javacodes.programs.commonpatterns.slidingwindow;
+package com.javacodes.programs.commons.slidingwindow;
 
 import java.util.Arrays;
 

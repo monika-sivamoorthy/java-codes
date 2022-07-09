@@ -1,4 +1,4 @@
-package com.javacodes.programs.commonpatterns.TreeDFS;
+package com.javacodes.programs.commons.TreeDFS;
 
 /**
  * Given a binary tree where each node can only have a digit (0-9) value, each root-to-leaf path will represent a number.

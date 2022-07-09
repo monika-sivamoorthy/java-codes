@@ -1,4 +1,4 @@
-package com.javacodes.programs.commonpatterns.TreeBFS;
+package com.javacodes.programs.commons.TreeBFS;
 
 class TreeNode {
     int val;
