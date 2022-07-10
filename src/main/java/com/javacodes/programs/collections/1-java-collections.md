@@ -11,6 +11,8 @@
 ! [Hierarchy of Collections Framework - Image](src/main/java/com/javacodes/programs/collections/README.md)
 
 
+---
+
 ### Iterator Interface
 
 - `Interface Iterator<E>` (E - the type of elements returned by this iterator)
@@ -26,30 +28,25 @@
     |default void| `forEachRemaining(Consumer<? super E> action)`|Performs the given action for each remaining element until all elements have been processed or the action throws an exception|
     
 
-
+---
 
 ### Iterable Interface
 
 - `Interface Iterable<T>` (T - the type of elements returned by the iterator)
 - The Iterable interface is the root interface for all the collection classes. 
 - The Collection interface extends the Iterable interface and therefore all the subclasses of Collection interface also implement the Iterable interface.
+
   #### Methods of Iterable Interface
+  
+   |Modifier and Type|Method|Description|
+   |-----------------|------|-----------|
+   |Iterator<T>|`iterator()`|This Abstract method, Returns an iterator over elements of type T|
+   |default void|`forEach(Consumer<? super T> action)`|Performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception|
+   |default Spliterator<T>|`spliterator()`|Creates a Spliterator over the elements described by this Iterable |
 
   
-  
+---
 
-
-
-  
-
-
-
-
-### Collection Interface 
-
-- The Collection interface is the interface which is implemented by all the classes in the collection framework. 
-- It declares the methods that every collection will have.
-- There are many methods declared in the Collection interface. Ref: methods-of-collection-interface.md
 
 
 

@@ -1,4 +1,4 @@
-package com.javacodes.programs.collections;
+package com.javacodes.programs.collections.ListInterface;
 
 /**
  * java.util
