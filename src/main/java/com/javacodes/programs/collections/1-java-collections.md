@@ -4,10 +4,6 @@
 - The **java.util** package contains all the classes and interfaces for the Collection framework
 
 
-
-- 
-
-
 ! [Hierarchy of Collections Framework - Image](src/main/java/com/javacodes/programs/collections/README.md)
 
 
