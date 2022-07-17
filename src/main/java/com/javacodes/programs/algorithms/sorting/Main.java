@@ -1,6 +1,6 @@
-package com.javacodes.programs.sorting;
+package com.javacodes.programs.algorithms.sorting;
 
-public class SortingMain {
+public class Main {
 
     public static void main(String args[]){
 
@@ -8,8 +8,9 @@ public class SortingMain {
 //        new InsertionSort().execute();
 //        new InPlaceMergeSort().execute();
 //        new HeapSort().execute();
-//        new QuickSortLumutosPartitioning().execute();
-//        new QuickSortHoaresPartitioning().execute();
+//        new QuickSort().execute();
+
+
 
     }
 

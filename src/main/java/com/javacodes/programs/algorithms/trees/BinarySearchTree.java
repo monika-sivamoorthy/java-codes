@@ -1,4 +1,4 @@
-package com.javacodes.programs.trees;
+package com.javacodes.programs.algorithms.trees;
 
 class Node {
 
